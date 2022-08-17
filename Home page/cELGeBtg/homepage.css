@@ -1,0 +1,184 @@
+body {
+    background-image: url("img/circular-quay-night.jpeg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+}
+
+#btn {
+    color: whitesmoke;
+    background-image: linear-gradient(#395D74,#112F54);
+    text-shadow: -1px -1px 1px black;
+    padding: 6px 15px;
+    border-radius: 30px;
+    margin: 1px 20px;
+}
+
+.nav-btns {
+    background-image: linear-gradient(#112F54,#395D74);
+    display: flex;
+    align-items: center;
+    flex-direction: center;
+    justify-content: space-evenly;
+    border: 5px double whitesmoke;    
+    border-radius: 30px;
+    margin-top: 20px;
+    padding: 0px 1px;
+    text-shadow: -1px -1px 1px black;
+}
+
+img {
+    height: 210px;
+    width: 160px;
+    border-radius: 25px;
+    border: double #395D74 3px;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    flex-direction: center;
+    justify-content: space-around;
+}
+
+img {
+    height: 250px;
+    width: 200px;
+    border-radius: 25px;
+    border: double #395D74 3px;
+    padding-left: 3px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Cardo', serif;
+    font-size: 72px;
+    text-shadow: 2px 2px 1px black;
+    color: whitesmoke;
+    border: 4px double whitesmoke;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    background-image: linear-gradient(#395D74,#112F54);
+}
+
+h2,h3,p {
+    text-align: center;
+    font-family: 'Cardo', serif;
+    color: whitesmoke;
+
+}
+
+.text-opacity {
+    opacity: 0;
+    color: white;
+}
+
+.text-opacity2 {
+    opacity: 0;
+    color: black;
+}
+.text-opacity:hover {
+    color: white;
+    opacity: 10;
+    text-shadow: 1px 1px 0px black;
+}
+
+.text-opacity2:hover {
+    color: black;
+    opacity: 10;
+    text-shadow: 1px 1px 0px whitesmoke;
+}
+
+.click {
+    color: whitesmoke;
+    margin-top: 350px;
+    text-shadow: 2px 2px 1px black;
+}
+
+.card-text {
+    text-align: right;    
+    text-shadow: 2px 2px 1px black;
+    font-size: 15px;
+    color: whitesmoke;
+    padding: 8px 8px;
+}
+.guide-card {
+    display: flex;
+    width: 400px;
+    height: 250px;
+    margin: 0px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 50px;
+    background: #112F54;
+    color: #2b2839;
+    border: 5px double whitesmoke;
+    border-radius: 30px;
+}
+
+.luna {
+    background-image: url("img/kangaroo-face.jpeg");
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+    border-radius: 25px;
+    border: solid 5px whitesmoke;
+}
+
+.luna:hover {
+    background-image: url("img/Luna-Park.jpeg");
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+    border-radius: 25px;
+    border: double 5px whitesmoke;
+}
+
+.NYE {
+    background-image: url("img/koala-face.jpeg");
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+    border-radius: 25px;
+    border: solid 5px whitesmoke;
+}
+
+.NYE:hover {
+    background-image: url("img/maximalfocus-KbRIg8EHdP0-unsplash.jpg");
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+    border-radius: 25px;
+    border: double 5px whitesmoke;
+}
+
+.Vivid {
+    background-image: url("img/kangaroo-joey.jpeg");
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+    border-radius: 25px;
+    border: solid 5px whitesmoke;
+}
+
+.Vivid:hover {
+    background-image: url("img/Vivid-Sydney.jpg");
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+    border-radius: 25px;
+    border: double 5px whitesmoke;
+}
+
+.section2 {
+    padding: 30px;
+    margin-top: 0px;
+    background-image: linear-gradient(#395D74,#112F54);
+}
+
+.NSW {
+    height: 100px;
+    width: 100px;
+}
